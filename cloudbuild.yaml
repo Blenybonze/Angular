@@ -15,7 +15,7 @@ args:
 "--allow-unauthenticated",
 "$PROJECT_ID",
 "--image",
-"gcr.io/$PROJECT_ID/angular8-application",
+"gcr.io/$PROJECT_ID/helloWorldG",
 "--region",
 "us-central1",
 "--platform",
@@ -24,4 +24,4 @@ args:
 "128Mi"
 ]
 images:
-- "gcr.io/$PROJECT_ID/angular8-application"
+- "gcr.io/$PROJECT_ID/helloWorldG"
